@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7E166B4-83E7-7BA0-8C9E-6D3339FAA1C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;UNITY_ADS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;UNITY_ADS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\AdManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Base.cs" />
+    <Compile Include="Assets\Scripts\Game\BlockGenerator.cs" />
+    <Compile Include="Assets\Scripts\Game\Controller.cs" />
+    <Compile Include="Assets\Scripts\Game\Delay.cs" />
+    <Compile Include="Assets\Scripts\Game\EnumTypes.cs" />
+    <Compile Include="Assets\Scripts\Game\GameInstanceAndSaveMode\GameInstance.cs" />
+    <Compile Include="Assets\Scripts\Game\GameInstanceAndSaveMode\ISceneLoaded.cs" />
+    <Compile Include="Assets\Scripts\Game\GameInstanceAndSaveMode\LoadingScreen.cs" />
+    <Compile Include="Assets\Scripts\Game\GameInstanceAndSaveMode\LoadingText.cs" />
+    <Compile Include="Assets\Scripts\Game\GameRule.cs" />
+    <Compile Include="Assets\Scripts\Game\GameState.cs" />
+    <Compile Include="Assets\Scripts\Game\GeneratePositions.cs" />
+    <Compile Include="Assets\Scripts\Game\ILinked.cs" />
+    <Compile Include="Assets\Scripts\Game\ILockViewport.cs" />
+    <Compile Include="Assets\Scripts\Game\ITouchSender.cs" />
+    <Compile Include="Assets\Scripts\Game\Items\CaskItem.cs" />
+    <Compile Include="Assets\Scripts\Game\Items\DiceItem.cs" />
+    <Compile Include="Assets\Scripts\Game\Items\GemItem.cs" />
+    <Compile Include="Assets\Scripts\Game\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\Game\Items\SwapItem.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuGame.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuInfo.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuMain.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuPlay.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuSave.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuScore.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuSettings.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\MenuWindow.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\UserMenuRoot.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\game\GameBackButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\game\GameNewButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\game\GameSaveButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\game\GameScoreButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\info\InfoBackButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\main\MainExitButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\main\MainGameButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\main\MainInfoButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\main\MainSettingsButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\play\PlayBackButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\play\PlayCaskFlick.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\play\PlayDiceFlick.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\play\PlayFlickButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\play\PlayGemFlick.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\play\PlayPlayButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\save\SaveBackButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\save\SavePlayButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\score\ScoreBackButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\settings\SettingsBackButton.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\settings\SettingsEffectFlick.cs" />
+    <Compile Include="Assets\Scripts\Game\MENU\settings\SettingsSoundFlick.cs" />
+    <Compile Include="Assets\Scripts\Game\MTouch.cs" />
+    <Compile Include="Assets\Scripts\Game\SaveMode\LevelItems.cs" />
+    <Compile Include="Assets\Scripts\Game\SaveMode\SaveGame.cs" />
+    <Compile Include="Assets\Scripts\Game\SaveMode\SaveList.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\DataRow.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\DataSave.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\DataTable.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\SaveTable\SaveRow.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\SaveTable\SaveTable.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\ScoreTable\ScoreExtraRow.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\ScoreTable\ScoreRow.cs" />
+    <Compile Include="Assets\Scripts\Game\ShowData\ScoreTable\ScoreTable.cs" />
+    <Compile Include="Assets\Scripts\Game\SpawnItems.cs" />
+    <Compile Include="Assets\Scripts\Game\SpriteResources.cs" />
+    <Compile Include="Assets\Scripts\Game\Table.cs" />
+    <Compile Include="Assets\Scripts\Game\Touch.cs" />
+    <Compile Include="Assets\Scripts\Game\TouchEventArgs.cs" />
+    <Compile Include="Assets\Scripts\Game\Transfer.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\CancelButton.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\CellWindow.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\ConfirmButton.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\ItemAdapter.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\RainbowButton.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\UIButton.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\UIGameButton.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\UIObject.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\HUD\UserInterface.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\DropLevel.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\NextLevel.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\PauseButtons\PauseAgain.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\PauseButtons\PauseContinue.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\PauseButtons\PauseExit.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\PauseButtons\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\PauseGame.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\UIMessage.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\UserWindows.cs" />
+    <Compile Include="Assets\Scripts\Game\UI\Messages\WinGame.cs" />
+    <Compile Include="Assets\Scripts\Game\UIFlickButton.cs" />
+    <Compile Include="Assets\Scripts\Game\example.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
